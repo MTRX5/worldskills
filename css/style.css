@@ -1,0 +1,270 @@
+
+/*@font-face {*/
+  /*font-family: "Akrobat Thin";*/
+  /*src: url(https://radiotech.su/upload/wsr/fonts/Akrobat-Thin.otf);*/
+/*}*/
+/*@font-face {*/
+  /*font-family: "Akrobat Bold";*/
+  /*src: url(https://radiotech.su/upload/wsr/fonts/Akrobat-Bold.otf);*/
+/*}*/
+/*@font-face {*/
+  /*font-family: "Akrobat Light";*/
+  /*src: url(https://radiotech.su/upload/wsr/fonts/Akrobat-Light.otf);*/
+/*}*/
+/*@font-face {*/
+  /*font-family: "Akrobat Black";*/
+  /*src: url(https://radiotech.su/upload/wsr/fonts/Akrobat-Black.otf);*/
+/*}*/
+/*@font-face {*/
+  /*font-family: "Akrobat Regular";*/
+  /*src: url(https://radiotech.su/upload/wsr/fonts/Akrobat-Regular.otf);*/
+/*}*/
+html {
+  font-family: "Akrobat Thin";
+  font-size: 12px;
+  overflow: 0;
+}
+html::-webkit-scrollbar {
+  width: 0px;
+}
+h1 {
+  font-family: "Akrobat Black";
+  font-size: 2.488em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #393939;
+  margin-top: 12px;
+}
+header {
+  width: 100%;
+  height: 140px;
+  background-color: #393939;
+}
+header .logo {
+  width: 97px;
+  padding-top: 28px;
+  margin-left: 20px;
+}
+header .menu {
+  font-family: "Akrobat Regular";
+  position: absolute;
+  right: 20px;
+  top: 55px;
+  font-size: 2.074em;
+  color: white;
+}
+header .menu a {
+  color: white;
+  display: inline-block;
+  margin-right: 15px;
+  line-height: 30px;
+}
+header .social {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+header .social a {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: "Akrobat Bold";
+  font-size: 1.44em;
+  background-color: white;
+  color: #393939;
+  text-decoration: none;
+  transition: 1s ease;
+}
+header .social a::after {
+  content: '';
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  border: 10px solid transparent;
+  border-top: 10px solid white;
+  transition: 1s ease;
+}
+header .social a:hover {
+  background-color: #eb4444;
+  color: white;
+  transition: 1s ease;
+}
+header .social a:hover::after {
+  border-top-color: #eb4444;
+  transition: 1s ease;
+}
+.videoSection {
+  width: 100%;
+  height: 600px;
+}
+.videoSection .video {
+  overflow: hidden;
+  z-index: -100;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: -245px;
+}
+/* EDIT */
+.fullscreen-bg__video {
+  width: 100%;
+}
+/* EDIT */
+.motion {
+  width: 960px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.motion .logoType {
+  display: block;
+  width: 206px;
+  margin: 0 auto;
+}
+.motion p {
+  margin-top: 10px;
+  font-size: 1.44em;
+  font-family: "Akrobat Regular";
+  color: #393939;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* EDIT */
+.competence {
+  background-color: #ff4040;
+  color: white !important;
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  box-sizing: content-box;
+}
+/* EDIT */
+.competence h1 {
+  color: white;
+}
+.competence .block {
+  vertical-align: top;
+  text-align: center;
+  font-family: "Akrobat Light";
+  display: inline-block;
+  width: 188px;
+  color: white;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.competence .block .photo {
+  width: 100%;
+  height: 110px;
+  position: relative;
+}
+.competence .block .photo img {
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+.competence .block p {
+  margin-top: 10px;
+}
+/* EDIT */
+.party {
+  width: 100%;
+  margin: 30px auto;
+}
+.party table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.party table th {
+  font-family: "Akrobat Black";
+}
+.party table td {
+  font-family: "Akrobat Regular";
+}
+.party table th,
+.party table td {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.party table .left {
+  border-right: 1px solid black;
+  height: 50px;
+  width: 50%;
+}
+/* EDIT */
+
+/* EDIT */
+.expert {
+  background-color: #0000dc;
+  color: white !important;
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  box-sizing: content-box;
+}
+/* EDIT */
+.expert h1 {
+  color: white;
+}
+.expert .block {
+  vertical-align: top;
+  text-align: center;
+  font-family: "Akrobat Light";
+  display: inline-block;
+  width: 188px;
+  color: white;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.expert .block .photo {
+  width: 100%;
+  height: 110px;
+  position: relative;
+}
+.expert .block .photo img {
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
+.expert .block p {
+  margin-top: 10px;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: #393939;
+}
+footer .logo {
+  width: 97px;
+  padding-top: 8px;
+  margin-left: 20px;
+}
+footer .copy {
+  font-family: "Akrobat Light";
+  position: absolute;
+  right: 20px;
+  width: 940px;
+  text-align: center;
+  top: 35px;
+  line-height: 30px;
+  font-size: 1.44em;
+  color: #b7b7b7;
+}
+
+/* NEW CSS */
+.description {
+  font-size: 1.3rem;
+}
+
+.party-name {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+/* NEW CSS */
+
