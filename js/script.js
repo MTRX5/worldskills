@@ -1,8 +1,5 @@
-// Stop AutoPlay
-$(document).ready;
-$(function () {
-    var screenWidth = $(window).width();
-    if (screenWidth >= 800) {
-        $('#video').attr('autoplay', 'autoplay');
-    }
-});
+if ($(window).width() <= 800){
+    var video_id = document.getElementById("video");
+    video_id.autoplay = false;
+    video_id.load();
+}
